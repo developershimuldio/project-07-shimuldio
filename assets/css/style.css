@@ -1,0 +1,327 @@
+*{
+    box-sizing:border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 90%;
+    height: 150vh;
+    background-color: #F6F1E9;
+}
+/* main part start */
+header{
+    background-color: #3E5C9A;
+    overflow: hidden;
+    padding: 8px;
+}
+.container-header{
+    width: 65%;
+    margin: auto;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+.logo-area img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid goldenrod;
+}
+.login-area{
+    width: 70%;
+    float: left;
+    color: white;
+    margin-top: 10px;
+}
+.login-area form{
+    float: right;
+    
+}
+.login-area label{
+    display: block;
+    
+}
+.login-area input{
+    display: block;
+    
+    color: white;
+}
+.login-area .email,
+.login-area .password,
+.login-area .login {
+    float: left;
+    
+}
+.login-area input{
+    color: black;
+}
+.login-area input[type='submit'] {
+    margin: 17px;
+    padding: 2px;
+    background-color: darkblue;
+    border: 1px solid black;
+    color: white;
+}
+.login-area input[type='submit']:hover{
+    color: red;
+    background-color: aqua;
+}
+.login-area a{
+    text-decoration: none;
+    color: lightgray;
+}
+.login-area a:hover{
+    color: greenyellow;
+}
+/* header part end */
+/* ----------main part start----------- */
+/* main part navivation */
+nav{
+    background-color: #898121;
+}
+.menu{
+    width: 55%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: antiquewhite;
+}
+.menu ul li a:hover{
+    background-color: white;
+    color: red;
+}
+/* main part box start */
+
+.container-main {
+    width: 90%;
+    min-height: 45vh;
+    margin: 0 auto;
+    background-color: #F7C04A;
+    overflow: hidden;
+    text-align: center;
+}
+.box-container{
+    width: 85%;
+    
+}
+.container-main h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #0014FF;
+    margin: 10px 0;
+    
+}
+.box {
+    width: 250px;
+    height: 250px;
+    background-color:#865DFF ;
+    padding: 50px;
+    border: 15px solid #635985;
+    float: left;
+}
+.box-1 {
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    background-color: #898121;
+    border: 15px solid #635985;
+    overflow: hidden;
+    float: left;
+}
+.box-2 {
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    background-color: #A86464;
+    border: 15px solid #635985;
+    overflow: hidden;
+    float: left;
+}
+.box-3 {
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    background-color: #EB455F;
+    border: 15px solid #635985;
+    overflow: hidden;
+    float: left;
+}
+/* main part box model end */
+/* banner content */
+.banner{
+    background-image:url(../images/banner-pic.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    
+}
+.banner:hover{
+    opacity:0.8;
+}
+.banner-content{
+    text-align: center;
+    
+    padding-top: 50px;
+
+}
+.banner-content h2{
+    color: darkred;
+    font-size: 35px;
+    text-transform: uppercase;
+    
+}
+.banner-content p{
+    font-size: 40px;
+    color: #0014FF;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.banner-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px 15px;
+    background-color: darkslategrey;
+    border-radius: 22px;
+    border: 2px solid red;
+    
+}
+.banner-content a:hover{
+    color: red;
+    background-color: yellowgreen;
+}
+
+/* banner content */
+
+/* ----content area,about,sercices,blog, sidebar */
+
+.content-area {
+    width: 80%;
+    float: left;
+    background-color: #009FBD;
+    overflow: hidden;
+    min-height: 522px;
+}
+.about {
+    overflow: hidden;
+    background-color: #B4E4FF;
+    text-align: center;
+}
+.about h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: darkred;
+    padding-top: 20px;
+}
+.about-img {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.about-img img {
+    width: 100%;
+}
+.about-content {
+    width: 50%;
+    overflow: hidden;
+}
+.services {
+    overflow: hidden;
+    background-color: #7DB9B6;
+}
+.service-item {
+    width: 24%;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+.service-item h3{
+    text-transform: uppercase;
+    color: #EB455F;
+    text-align: center;
+}
+.blogs {
+    overflow: hidden;
+    text-align: center;
+}
+
+.blog {
+    width: 33%;
+    float: left;
+    overflow: hidden;
+    padding: 10px ;
+}
+.blog h3{
+    text-transform: uppercase;
+    color: goldenrod;
+}
+.sidebar {
+    width: 20%;
+    margin: 0;
+    float: right;
+    overflow: hidden;
+    background-color: #F9E2AF;
+    min-height: 571px;
+    text-align: center;
+    padding: 10px;
+    background-image: url(../images/aside-pix.avif);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;   
+    color: aliceblue;
+}
+.sidebar h3{
+    color: darkred;
+    font-size: 30px;
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar ul:hover{
+    color: red;
+}
+/* ----------main part end----------- */
+/* ----------footer start----------- */
+.footer {
+    width: 100%;
+    background-color: #3E5C9A;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    
+    font-size: 18px;
+    padding: 10px;
+}
+.footer p{
+    color: #F6F1E9; 
+}
+.footer span{
+    text-transform: capitalize;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    color: greenyellow;
+}
+/* ----------footer end----------- */
